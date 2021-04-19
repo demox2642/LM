@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.skilbox.leroymerlin.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_viewType1"
+            app:destination="@id/viewType1" />
+        <action
+            android:id="@+id/action_mainFragment_to_type2"
+            app:destination="@id/type2" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewType1"
+        android:name="com.skilbox.leroymerlin.ViewType1"
+        android:label="ViewType1"
+        tools:layout="@layout/view_tipe1_fragment"/>
+    <fragment
+        android:id="@+id/type2"
+        android:name="com.skilbox.leroymerlin.ViewType2"
+        android:label="fragment_type2"
+        tools:layout="@layout/fragment_type2" />
+</navigation>

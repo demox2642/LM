@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/search"
+        android:title="@string/navigation_main"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/navigation_my_list"
+        android:icon="@drawable/my_list"
+        android:title="@string/navigation_my_list"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/navigation_shops"
+        android:icon="@drawable/store"
+        android:title="@string/navigation_shops"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profil"
+        android:title="@string/navigation_profile"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/navigation_basket"
+        android:icon="@drawable/basket"
+        android:title="@string/navigation_basket"
+        android:enabled="true"/>
+
+</menu>
